@@ -18,22 +18,22 @@ const NavBar = () => {
                 <NavLink end to='/about'>about me</NavLink>
             </li>
             <li>
-                <NavLink end to='portfolio'>portfolio</NavLink>
+                <NavLink end to='/portfolio'>portfolio</NavLink>
+            </li>
+            <li className="dropdown">
+                  <button className="dropbtn">
+                    What I do
+                    <i className="fa-solid fa-angle-down"></i>
+                  </button>
+                  <li className="dropdown-content">
+                    <NavLink>brand design</NavLink>
+                    <NavLink>UI/UX</NavLink>
+                    <NavLink>web development</NavLink>
+                    <NavLink>Social media management</NavLink>
+                  </li>
             </li>
             <li>
-                <NavLink>
-                  <select name="services" id="services">
-                    <option value="whatido" defaultValue hidden>what i do</option>
-                    <NavLink></NavLink>
-                    <option value="brand design"><NavLink>brand design</NavLink></option>
-                    <option value="uiux"><NavLink>UI/UX</NavLink></option>
-                    <option value="webdevelopment"><NavLink>web development</NavLink></option>
-                    <option value="smm"><NavLink>social media management</NavLink></option>
-                  </select>
-                </NavLink>
-            </li>
-            <li>
-              <button>
+              <button className='quote'>
                 Get a quote
               </button>
             </li>
