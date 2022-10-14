@@ -1,0 +1,19 @@
+.container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+    padding-top: 170px;
+}
+
+h1{
+    font-size: 50px;
+    color: #000;
+    
+}
+
+#typewriter{
+    color: #00008B;
+    font-weight: bold;
+}

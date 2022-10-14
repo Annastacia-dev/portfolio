@@ -25,12 +25,12 @@ const NavBar = () => {
                     What I do
                     <i className="fa-solid fa-angle-down"></i>
                   </button>
-                  <li className="dropdown-content">
+                  <div className="dropdown-content">
                     <NavLink>brand design</NavLink>
                     <NavLink>UI/UX</NavLink>
                     <NavLink>web development</NavLink>
                     <NavLink>Social media management</NavLink>
-                  </li>
+                  </div>
             </li>
             <li>
               <button className='quote'>
