@@ -9,23 +9,27 @@ const Home = () => {
       });
   return (
     <>
-    <div className='container'>
-    <h1>
-        Hello, I'm Annastacia 👋
-        <br/> I offer creative
-        <br />
-        <span id='typewriter'>
-            <Typewriter
-                typewriter={typewriter}
-                options={{
-                    strings: ['digital', 'web', ' & design'],
-                    autoStart: true,
-                    loop: true,
-                }}
-            />
-        </span>
-        solutions.
-    </h1>
+    <div className='container home'>
+        <div className='content'>
+            <h1>
+                Hello, I'm Annastacia 👋
+                <br/> I offer creative
+                <span id='typewriter'>
+                    <Typewriter
+                        typewriter={typewriter}
+                        options={{
+                            strings: ['digital', 'web', ' & design'],
+                            autoStart: true,
+                            delay:75,
+                            deleteSpeed: 30,
+                            pauseFor: 1000,
+                            loop: true,
+                        }}
+                    />
+                </span>
+                solutions.
+            </h1>
+     </div>
     </div>
       
     </>

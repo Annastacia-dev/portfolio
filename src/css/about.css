@@ -1,0 +1,4 @@
+.container.about{
+    background:  radial-gradient(ellipse at top, #00008B, transparent),
+    radial-gradient(ellipse at bottom, #000, transparent)
+}

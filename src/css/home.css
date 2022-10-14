@@ -1,19 +1,27 @@
-.container{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    justify-content: left;
-    margin-left: 100px;
-    padding-top: 170px;
+.container.home{
+    height: 100vh;
+    background:  radial-gradient(ellipse at top, #00008B, transparent),
+                 radial-gradient(ellipse at bottom, #000, transparent),
+                 url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 background-position: center;
+   
+
+}
+
+.content{
+    margin-left: -500px;
 }
 
 h1{
     font-size: 50px;
-    color: #000;
+    color: #fff;
     
 }
 
 #typewriter{
-    color: #00008B;
+    color: #fc5a8d;
     font-weight: bold;
 }
+

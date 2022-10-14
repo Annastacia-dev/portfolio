@@ -10,3 +10,11 @@ body{
   max-width: 1330px; 
 }
 
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+

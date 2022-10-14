@@ -13,10 +13,10 @@ nav{
     text-decoration: none;  
 }
 .logo :hover{
-    color: #00008B;
+    color: #fc5a8d;
 }
 .logo span{
-    color: black;
+    color: #fff;
     font-size: 25px;
     font-weight: 800;
     font-family: 'Poppins', sans-serif;
@@ -41,17 +41,18 @@ nav ul li a {
     font-weight: 400;
     padding: 7px 20px;
     border-radius: 3px;
-    color: #000; 
+    color: #fff; 
     text-decoration: none;  
 }
 nav ul li a:hover{
-    color: #00008B;
-    transition: .5s;
+    color: #fc5a8d;
+    transition: 1s;
 }
 
 .quote{
    
     cursor: pointer;
+    color:#fff;
     height: 40px;
     width: 125px;
     text-transform: capitalize;
@@ -59,21 +60,17 @@ nav ul li a:hover{
     margin-left: 50px;
     transition: all 250ms ease-in-out;
     font-weight: 400;
-    background-color: #fff;
+    background: transparent;
     border: 1px solid #fff;
     border-radius: 9999px;
-    box-shadow: -1px -1px 5px rgba(255, 255, 255, 0.6),
-                 1px 1px 5px rgba(0, 0, 0, 0.3),
-                 inset -2px -2px 5px rgba(255, 255, 255, 1),
-                 inset 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .quote:hover{
-    color: #00008B; 
+    color: #fc5a8d; 
 }
 
   .dropdown .dropbtn {
-
+    color:#fff;
     background: none;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
@@ -82,7 +79,7 @@ nav ul li a:hover{
   }
 
   .dropdown .dropbtn:hover{
-    color: #00008B;
+    color: #fc5a8d;
   }
 
   .dropdown .dropbtn i{
@@ -92,7 +89,7 @@ nav ul li a:hover{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background:transparent;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -100,13 +97,13 @@ nav ul li a:hover{
   .dropdown-content a {
     float: none;
     font-size: 15px;
-    color: black;
+    color: #fff;
     text-decoration: none;
     display: block;
     text-align: left;
   }
     .dropdown-content a:hover {
-        color: #00008B;
+        color: #fc5a8d;
     }
     .dropdown:hover .dropdown-content {
         display: block;
