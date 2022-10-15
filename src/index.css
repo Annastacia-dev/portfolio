@@ -4,17 +4,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body{
   font-family: 'Poppins', sans-serif;
   max-width: 1330px; 
 }
-
 .container{
     width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    background-color: #0d2241;
+}
+.content{
+  margin-top: 50px;
+  margin-left: -500px;
+  line-height: 1.2;
 }
 

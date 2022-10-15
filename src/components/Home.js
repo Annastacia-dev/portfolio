@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
     <div className='container home'>
-        <div className='content'>
+        <div className='content home'>
             <h1>
                 Hello, I'm Annastacia 👋
                 <br/> I offer creative
@@ -29,6 +29,15 @@ const Home = () => {
                 </span>
                 solutions.
             </h1>
+
+            <div className='description'>
+                <p>
+                    Telling your story through design is my passion. 
+                    <br />
+                    I'm a creative problem solver with a background in design and development. 
+                    
+                </p>
+            </div>
      </div>
     </div>
       

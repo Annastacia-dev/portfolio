@@ -1,4 +1,17 @@
 .container.about{
-    background:  radial-gradient(ellipse at top, #00008B, transparent),
-    radial-gradient(ellipse at bottom, #000, transparent)
+   
+}
+
+.content.about{
+    margin-left: 500px;
+}
+
+.description.about{
+    margin-top: 20px;
+}
+.description.about h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #fc5;
+    letter-spacing: 1px;
 }

@@ -1,8 +1,13 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import '../css/navbar.css'
 
 const NavBar = () => {
+  const navigate = useNavigate()
+  const handleClick = () => {
+    navigate('/form')
+  }
   return (
     <div>
       <nav>
@@ -26,14 +31,16 @@ const NavBar = () => {
                     <i className="fa-solid fa-angle-down"></i>
                   </button>
                   <div className="dropdown-content">
-                    <NavLink>brand design</NavLink>
-                    <NavLink>UI/UX</NavLink>
-                    <NavLink>web development</NavLink>
-                    <NavLink>Social media management</NavLink>
+                    <NavLink end to='/branddesign'>brand design</NavLink>
+                    <NavLink end to='/uiux'>UI/UX</NavLink>
+                    <NavLink end to='/webdevelopment'>web development</NavLink>
+                    <NavLink end to='/smm'>Social media management</NavLink>
                   </div>
             </li>
             <li>
-              <button className='quote'>
+              <button 
+              className='quote'
+              onClick={handleClick}>
                 Get a quote
               </button>
             </li>
