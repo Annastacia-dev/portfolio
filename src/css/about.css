@@ -3,7 +3,7 @@
 } */
 
 .content.about{
-    margin-left: 500px;
+    margin-left: 80px;
 }
 
 .description.about{
@@ -14,4 +14,54 @@
     margin-bottom: 15px;
     color: #fc5;
     letter-spacing: 1px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #fff;
+    margin-top: 70px;
+    width: 90vh;
+    height: 70vh;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slide 50s infinite;
+
+}
+
+@keyframes slide {
+    0%{
+        background-image: url(../images/care.png);
+    }
+    20%{
+        background-image: url(../images/care.png);
+    }
+    20.01%{
+        background-image: url(../images/velvetvinos.jpg);
+    }
+    40%{
+        background-image: url(../images/velvetvinos.jpg);
+    }
+    40.01%{
+        background-image: url(../images/chicco.jpg);
+    }
+    60%{
+        background-image: url(../images/chicco.jpg);
+    }
+    60.01%{
+        background-image: url(../images/bamboo.jpg);
+    }
+    80%{
+        background-image: url(../images/bamboo.jpg);
+    }
+    80.01%{
+        background-image: url(../images/beats.jpg);
+    }
+    100%{
+        background-image: url(../images/beats.jpg);
+    }
 }

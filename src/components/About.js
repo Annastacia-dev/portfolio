@@ -3,7 +3,10 @@ import '../css/about.css'
 
 const About = () => {
   return (
+<>
     <div className='container about'>
+        <div className='image-container'>
+        </div>
         <div className='content about'>
           <h1>
             About me
@@ -35,6 +38,7 @@ const About = () => {
           </div>
         </div>
         </div>
+  </>
   )
 }
 
