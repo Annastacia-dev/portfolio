@@ -1,0 +1,38 @@
+
+.card{
+   
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.26);
+    margin: 0 auto;
+    max-width: 30rem;
+    padding: 1rem;
+}
+.card a{
+    text-decoration: none;;
+}
+.card:hover{
+    transform: scale(1.05);
+    border-bottom: 10px solid #fc5;
+    transition: all .2s ease-in-out;
+}
+.card img{
+  width: 100%;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.card i{
+    color: #fff;
+    display: inline-block;
+   
+}
+
+.card h4{
+    color: #fff;
+    display: inline-block;
+    text-transform: capitalize;
+} 
