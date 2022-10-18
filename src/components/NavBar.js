@@ -39,7 +39,7 @@ const NavBar = () => {
             </li>
             <li>
               <button 
-              className='quote'
+              className='awesome-button'
               onClick={handleClick}>
                 Get a quote
               </button>

@@ -32,3 +32,25 @@ body{
   text-transform: uppercase;
 }
 
+.awesome-button{
+  cursor: pointer;
+  color:#fff;
+  height: 40px;
+  width: 125px;
+  text-transform: capitalize;
+  font-size: 15px;
+  margin-left: 50px;
+  transition: all 250ms ease-in-out;
+  font-weight: 400;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 9999px;
+}
+.awesome-button:hover{
+  border: 1px solid #fc5;
+  background-color: #fc5;
+  color: #0d2241;
+  font-weight: 500;
+  transition: all .5s ease-in-out;
+}
+

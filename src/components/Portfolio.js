@@ -21,7 +21,14 @@ const Portfolio = () => {
   return (
     <div className='container portfolio'>
         <div className='content portfolio'>
-            <h1> Show Case</h1>
+            <h1> Show Case
+            <span className='view-button'>
+              <button className='awesome-button'>
+                view all
+              </button>
+            </span>
+            </h1> 
+            
             <div className="description portfolio">
                 <p>case studies of my projects</p>
                 </div>
