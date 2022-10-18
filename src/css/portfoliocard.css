@@ -1,0 +1,24 @@
+.image-bg{
+    background: #0d2241;
+    overflow: hidden;
+    position: relative;   
+}
+.image-bg img{
+    width: 100%;
+    opacity: 0.2;
+}
+.card-details{
+    position: absolute;
+    margin-top: -80px;
+    padding-left: 50px;
+    color: #fff;
+}
+.card-details h3{
+    font-size:16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.card-details span{
+    font-size: 10px;
+    word-spacing: 2px;
+}

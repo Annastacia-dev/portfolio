@@ -18,7 +18,7 @@ const Home = () => {
                     <Typewriter
                         typewriter={typewriter}
                         options={{
-                            strings: ['digital', 'web', ' & design'],
+                            strings: ['digital', 'web', 'design'],
                             autoStart: true,
                             delay:75,
                             deleteSpeed: 30,

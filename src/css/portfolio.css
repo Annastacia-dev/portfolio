@@ -1,3 +1,19 @@
 .container.portfolio{
-    margin-top: 150px;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.description.portfolio{
+    margin-top: 10px;
+}
+.content.portfolio{
+    margin-left: 600px;
+}
+
+.portfoliocards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 190vh;
+    margin-top: 40px;
+    gap: 1px;
 }
