@@ -2,6 +2,7 @@ import React from 'react'
 import Typewriter from 'typewriter-effect'
 import '../css/home.css'
 
+
 const Home = () => {
     var typewriter = new Typewriter('#typewriter', {
         loop: true,

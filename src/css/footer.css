@@ -1,0 +1,13 @@
+
+.description.footer{
+   margin-top: 10px;
+}
+
+.description.footer h3{
+    color: #fc5;
+    margin: 20px 0;
+}
+.category{
+    display: inline-block;
+    margin-top: 10px;
+}
