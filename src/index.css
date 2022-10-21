@@ -8,6 +8,7 @@ body{
   font-family: 'Poppins', sans-serif;
   max-width: 1330px; 
   background-color: #0d2241;
+  scroll-behavior: smooth;
 }
 .container{
     width: 100%;

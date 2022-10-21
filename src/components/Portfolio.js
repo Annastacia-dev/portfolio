@@ -1,6 +1,7 @@
 import React,{ useState, useEffect} from 'react'
 import '../css/portfolio.css'
 import PortfolioCard from './PortfolioCard'
+import Loading from './Loading'
 
 const Portfolio = () => {
 
@@ -35,7 +36,7 @@ const Portfolio = () => {
               </div>
 
                 <div className='portfoliocards-container'>
-                  {loading ? <div>Loading...</div> :projects.map (project => <PortfolioCard key={project.id}project={project}/> ) }
+                  {loading ? <Loading/> :projects.map (project => <PortfolioCard key={project.id}project={project}/> ) }
                 </div>   
     </div>
   )

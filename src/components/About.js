@@ -26,7 +26,7 @@ const About = () => {
               {/* end of category */}
               {/* category */}
               <h2>
-              development.
+              Development.
             </h2>
               <p>
             Intermediate web developer.<br />
