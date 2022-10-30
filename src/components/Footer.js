@@ -43,14 +43,32 @@ const Footer = () => {
             </div>
         </div>
          <div className="socials">
-         <h1>Lets connect</h1>
+         <h1>Lets Connect</h1>
          <div className="description socials">
-
+          <div>
+          {/* --- */}
+          <i className="fa-solid fa-paper-plane"></i>
+          <span className>annetotoh@gmail.com</span>
+          </div>
+          {/* --- */}
+          <i className="fa-solid fa-mobile"></i>
+          <span>0768372439</span>
+         </div>
+         <div className='media'>
+            <a href="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+         </div>
+         <div className='copyright'>
+          <p>
+            <i class="fa-regular fa-copyright"></i>
+            <span>
+              {new Date().getFullYear()} All Rights Reserved.Annastacia Mumbua Kioko.
+            </span>
+          </p>
          </div>
          </div>
-        
-      
-        
         </div>
     </div>
   )

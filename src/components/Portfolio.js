@@ -15,10 +15,8 @@ const Portfolio = () => {
         setProjects(data)
         setLoading(false)
       })
-  }, [])
-
-  console.log(projects)
-
+  }, [projects])
+  
   return (
     <div className='container portfolio'>
         <div className='content portfolio'>
